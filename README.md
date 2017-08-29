@@ -2,10 +2,6 @@
 
 This script removes datestamped files.
 
-This deletes files with names that end in a separator then ISO date:
-
-  * Example: foo-2017-12-31, foo_2017_12_31, etc.
-
 Syntax:
 
     rm-datestamped-files [dir]
@@ -17,6 +13,13 @@ Example to do the current directory:
 Example to do a specific directory:
 
     rm-datestamped-files /foo/goo
+
+
+## Which files?
+
+This deletes files with names that end in a separator then ISO date:
+
+  * Example: foo-2017-12-31, foo_2017_12_31, etc.
 
 The file name separator can be a period, dash, or underscore.
 
