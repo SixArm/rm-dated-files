@@ -24,6 +24,16 @@ This deletes files with names that end in a separator then ISO date:
 The file name separator can be a period, dash, or underscore.
 
 
+## Related
+
+These scripts are for related purposes:
+
+  * [rm-compressed-files](https://github.com/SixArm/rm-compressed-files)
+  * [rm-datestamped-files](https://github.com/SixArm/rm-datestamped-files)
+  * [rm-numbered-files](https://github.com/SixArm/rm-numbered-files)
+  * [rm-rotated-files](https://github.com/SixArm/rm-rotated-files)
+
+
 ## Compatibility notes
 
 We prefer to be more compatible rather than system-specific.
