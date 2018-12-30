@@ -6,15 +6,15 @@ set -euf
 #
 # Syntax:
 # 
-#     rm-dated-files [dir]
+#     $ rm-dated-files [dir]
 # 
 # Example to do the current directory:
 # 
-#     rm-dated-files
+#     $ rm-dated-files
 # 
 # Example to do a specific directory:
 #
-#     rm-dated-files /foo/goo
+#     $ rm-dated-files /foo/goo
 #
 #
 # ## Which files?
