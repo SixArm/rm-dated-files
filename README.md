@@ -2,6 +2,17 @@
 
 This script removes dated files.
 
+Contents:
+
+* [Introduction](#introduction)
+* [Which files?](#which-files)
+* [Related](#related)
+* [Compatibility notes](#compatibility-notes)
+* [Tracking](#tracking)
+
+
+## Introduction
+
 Syntax:
 
     $ rm-dated-files [dir]
