@@ -1,18 +1,18 @@
-# Remove datestamped files
+# Remove dated files
 
-This script removes datestamped files.
+This script removes dated files.
 
 Syntax:
 
-    rm-datestamped-files [dir]
+    $ rm-dated-files [dir]
 
 Example to do the current directory:
 
-    rm-datestamped-files
+    $ rm-dated-files
 
 Example to do a specific directory:
 
-    rm-datestamped-files /foo/goo
+    $ rm-dated-files /foo/goo
 
 
 ## Which files?
@@ -29,8 +29,11 @@ The file name separator can be a period, dash, or underscore.
 These scripts are for related purposes:
 
   * [rm-compressed-files](https://github.com/SixArm/rm-compressed-files)
-  * [rm-datestamped-files](https://github.com/SixArm/rm-datestamped-files)
+
+  * [rm-dated-files](https://github.com/SixArm/rm-dated-files)
+
   * [rm-numbered-files](https://github.com/SixArm/rm-numbered-files)
+
   * [rm-rotated-files](https://github.com/SixArm/rm-rotated-files)
 
 
@@ -49,10 +52,12 @@ We prefer to be more compatible rather than system-specific.
 
 ## Tracking
 
-  * Command: rm-datestamped-files
-  * Version: 3.0.0
+  * Command: rm-dated-files
+  * Website: http://sixarm.com/rm-dated-files
+  * Cloning: https://github.com/sixarm/rm-dated-files
+  * Version: 4.0.0
   * Created: 2013-12-09
-  * Updated: 2017-08-29
+  * Updated: 2019-01-01
   * License: GPL
   * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
-
+  * Tracker: bac247f0bfa7328306f2db7e5910a610
