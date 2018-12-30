@@ -1,4 +1,4 @@
-# Remove dated files
+# Remove datestamped files
 
 This script removes datestamped files.
 
