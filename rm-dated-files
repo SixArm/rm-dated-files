@@ -5,13 +5,13 @@ set -euf
 # This script removes dated files.
 #
 # Syntax:
-# 
+#
 #     $ rm-dated-files [dir]
-# 
+#
 # Example to do the current directory:
-# 
+#
 #     $ rm-dated-files
-# 
+#
 # Example to do a specific directory:
 #
 #     $ rm-dated-files /foo/goo
@@ -40,16 +40,19 @@ set -euf
 #
 #
 # ## Tracking
-# 
+#
 #   * Command: rm-dated-files
 #   * Website: http://sixarm.com/rm-dated-files
 #   * Cloning: https://github.com/sixarm/rm-dated-files
-#   * Version: 4.0.0
+#   * Version: 4.0.1
 #   * Created: 2013-12-09
-#   * Updated: 2019-01-01
+#   * Updated: 2019-09-08
 #   * License: GPL
 #   * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
 #   * Tracker: bac247f0bfa7328306f2db7e5910a610
 ##
 
-find "${1:-.}" -regex ".*[-_\.][0123456789][0123456789][0123456789][0123456789][-_\.][0123456789][0123456789][-_\.][0123456789][0123456789]" -type f -exec rm {} \;
+find "${1:-.}" \
+     -type f \
+     -regex ".*[-_\.][0123456789][0123456789][0123456789][0123456789][-_\.][0123456789][0123456789][-_\.][0123456789][0123456789]" \
+     -exec rm {} \;
